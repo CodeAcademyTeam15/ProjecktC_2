@@ -1,6 +1,5 @@
 CC=gcc
 FILE=task.c
-TARGET=task
 
 ### unified cross-platform clean function
 #checks for env var of win 
