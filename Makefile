@@ -1,14 +1,14 @@
 CC=gcc
-FILE=task.c
+FILE=project20210122.c
 
 ### unified cross-platform clean function
 #checks for env var of win 
 ifeq ($(OS),Windows_NT)
     RM=del /Q
-    TARGET=task.exe
+    TARGET=project.exe
 else
     RM=rm -f
-    TARGET=task
+    TARGET=project
 endif
 
 all:
